@@ -1,0 +1,46 @@
+{
+  "name": "beermath",
+  "version": "1.0.0",
+  "description": "A collection of functions to calculate data for beer recipes",
+  "main": "dest/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "test": "npm run build && tap test/*.spec.js",
+    "build": "rm -rf dist/* && babel -d dist src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/toddself/beermath.git"
+  },
+  "keywords": [
+    "beer",
+    "brewing",
+    "recipe",
+    "bitterness",
+    "original",
+    "gravity",
+    "final",
+    "gravity",
+    "sparge",
+    "mash",
+    "brew",
+    "strike",
+    "infusion",
+    "decoction"
+  ],
+  "author": "Todd Kennedy <todd@selfassembled.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/toddself/beermath/issues"
+  },
+  "homepage": "https://github.com/toddself/beermath#readme",
+  "devDependencies": {
+    "tap": "~2.2.0",
+    "babel": "~6.0.14",
+    "babel-cli": "~6.0.14"
+  },
+  "dependencies": {
+    "convert-units": "~0.1.1"
+  }
+}
