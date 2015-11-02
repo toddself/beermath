@@ -1,5 +1,5 @@
-import splitMeasure from '../split-measure-units'
-import round from '../round'
+import splitMeasure from '@toddself/split-measure-units'
+import round from '@toddself/round'
 
 // These constants were derived by Glenn Tinseth
 const bignessMultiplier = 1.65

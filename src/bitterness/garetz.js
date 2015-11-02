@@ -1,5 +1,5 @@
-import splitMeasure from '../split-measure-units'
-import round from '../round'
+import splitMeasure from '@toddself/split-measure-units'
+import round from '@toddself/round'
 
 const hopUtilization = 0.749
 const calcWeightUnit = 'oz'

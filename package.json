@@ -42,6 +42,8 @@
     "tap": "~2.2.0"
   },
   "dependencies": {
+    "@toddself/round": "~1.0.0",
+    "@toddself/split-measure-units": "~1.0.1",
     "convert-units": "~0.1.1"
   }
 }

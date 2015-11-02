@@ -1,6 +1,6 @@
 import convert from 'convert-units'
-import splitMeasure from '../split-measure-units'
-import round from '../round'
+import splitMeasure from '@toddself/split-measure-units'
+import round from '@toddself/round'
 
 const grainSH = 0.2
 const hltTemp = 210

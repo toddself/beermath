@@ -1,5 +1,5 @@
 import convert from 'convert-units'
-import splitMeasure from '../split-measure-units'
+import splitMeasure from '@toddself/split-measure-units'
 
 const grainAbsorption = 0.2 // gallons water per pound of grist
 const calcVolumeUnits = 'gal'
