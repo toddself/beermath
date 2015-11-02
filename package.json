@@ -1,6 +1,6 @@
 {
   "name": "beermath",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A collection of functions to calculate data for beer recipes",
   "main": "dist/index.js",
   "jsnext:main": "src/index.js",
