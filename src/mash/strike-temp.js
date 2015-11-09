@@ -6,7 +6,7 @@ import round from '@toddself/round'
 
 const calcWeightMeasure = 'lb'
 const calcVolumeMeasure = 'gal'
-const calcMashTemp = 'f'
+const calcMashTemp = 'F'
 const grainSH = 0.2
 
 function getThickness (mashThickness) {
